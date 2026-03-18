@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+@font-face {
+    font-family: "Titlefont";
+    src: url(../assets/fonts/Mythology\ Of\ Egypt.otf);
+}
+
+h1{
+    font-family: "Titlefont";
+    color: #e9ad1c;
+    font-size: 96pt;
+}
+
+p{
+    font-family: "Metamorphous", serif;
+    font-size: 24pt;
+    color: white;
+}
+
+.hero{
+    background-image: url(../assets/img/homeHeader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: fit-content;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
