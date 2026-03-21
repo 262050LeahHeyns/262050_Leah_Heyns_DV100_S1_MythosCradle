@@ -1,7 +1,11 @@
-body{
+body {
+    font-family: 'Poppins', 'Titlefont', 'Metamorhpous';
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -9,27 +13,206 @@ body{
     src: url(../assets/fonts/Mythology\ Of\ Egypt.otf);
 }
 
-h1{
-    font-family: "Titlefont";
-    color: #e9ad1c;
-    font-size: 96pt;
+img{
+    border-radius: 20px;
 }
 
-p{
-    font-family: "Metamorphous", serif;
-    font-size: 24pt;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.635);
+    border-radius: 32px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.logo {
+    flex: 1;
+}
+
+nav ul{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-weight: 600;
+}
+
+.searchBar{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-family: 'Titlefont';
+    font-size: 54pt;
+    color: #e9ad1c;
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Metamorphous';
+    font-size: 14pt;
     color: white;
+}
+
+.blue h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+    font-size: 30pt;
+}
+
+.blue h4{
+    font-family: 'Poppins';
+    font-size: 12pt;
+    color:#e9ad1c;
+}
+
+.blue h5{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    font-weight: 600;
+    color: white;
+}
+
+.blue p{
+    font-family: 'Poppins';
+    font-size: 12pt;
+    color: white;
+}
+
+.slider2Col button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #15d5f5;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+header{
+    background-image: url(../assets/img/homeHeader.png);
+    background-size: 100%;
 }
 
 .hero{
-    background-image: url(../assets/img/homeHeader.png);
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 350px;
 
-    height: fit-content;
-    color: white;
-    display:flex;
-    flex-direction: column;
+}
+.pageTitle{
+    width: 33%;
+}
+
+.blue{
+    background-color: #002d68;
+}
+.sliderColumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8%;
+    gap: 10%;
+}
+
+.slider2Col{
+    width: 50%
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-right: 4%;
+    padding-left: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    gap: 5%;
+}
+
+.flex2Col{
+    width: 50%;
+}
+
+
+.white h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    font-size: 25pt;
+}
+
+.white h4{
+    font-family: 'Poppins';
+    font-size: 12pt;
+    color: #15d5f5;
+    font-weight: 300;
+}
+
+.white p{
+    font-family: 'Poppins';
+    font-size: 12pt;
+    color: black;
+}
+
+.featureHead{
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.featureCard{
+    padding: 10px;
+    text-align: center;
+    margin: 1px;
+    width: 25%;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 8px;
+}
+
+.cta button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #15d5f5;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
 }
