@@ -17,6 +17,7 @@ img{
     border-radius: 20px;
 }
 
+
 nav{
     display: flex;
     align-items: center;
@@ -30,7 +31,6 @@ nav{
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 .logo {
@@ -88,10 +88,23 @@ h2{
     color: white;
 }
 
+h6{
+    font-family: 'Titlefont';
+    font-size: 60pt;
+    color: white;
+    font-weight: 500;
+}
+
+h7{
+    font-family: 'Metamorphous';
+    font-size: 24pt;
+    color:#e9ad1c;
+}
 .blue p{
     font-family: 'Poppins';
     font-size: 12pt;
     color: white;
+    margin-top: 16px;
 }
 
 .slider2Col button{
@@ -106,7 +119,7 @@ h2{
 
 }
 
-header{
+.hero {
     background-image: url(../assets/img/homeHeader.png);
     background-size: 100%;
 }
@@ -215,4 +228,24 @@ header{
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
+}
+
+.adoptHead{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../assets/img/adoptHeader.png);
+    background-size: 100%;
+    padding-top: 150px;
+    padding-bottom: 45px;
+}
+
+.adoptSub{
+    justify-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 108px;
+    padding-right: 108px;
+
 }
