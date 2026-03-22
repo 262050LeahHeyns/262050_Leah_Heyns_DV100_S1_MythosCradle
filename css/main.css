@@ -249,3 +249,51 @@ h7{
     padding-right: 108px;
 
 }
+
+.adoptFoot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9ad1c;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 550;
+    color: white;
+}
+
+.adoptFootleft{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+.adoptFootright{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    gap: 20px;
+}
+
+.adoptWhite{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-right: 6%;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.adoptContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.adopt2Col{
+    width: 50%;
+}
+
