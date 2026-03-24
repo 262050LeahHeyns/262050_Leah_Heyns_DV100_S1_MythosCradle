@@ -285,7 +285,7 @@ h7{
     padding-top: 6%;
     padding-bottom: 6%;
 }
-.adoptContainer{
+.adoptContainerWhite{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -297,3 +297,176 @@ h7{
     width: 50%;
 }
 
+.adoptWhite h3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.whitePrice{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.adoptWhite h4{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    color: grey;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+
+.whiteDescription{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.rateCreature{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.rating h5{
+    color:#e9ad1c;
+    font-size: 12pt;
+    padding-right: 40px;
+}
+
+.devider p{
+    color: grey;
+    font-size: 25pt;
+}
+
+.personality{
+    color:grey;
+    font-size: 9pt;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.adoptWhite button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color:#15d5f5;
+}
+
+
+.greyText{
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.greyText1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 90px;
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 10pt;
+    padding-bottom: 20px;
+}
+
+.greyText2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 74px;
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 10pt;
+    padding-bottom: 20px;
+}
+
+.greyText3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 86px;
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 10pt;
+    padding-bottom: 20px;
+}
+
+.greyText4{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 36px;
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 10pt;
+    padding-bottom: 20px;
+}
+
+.adoptBlue{
+    display: flex;
+    flex-direction: row;
+    background-color: #002d68;
+    padding-right: 6%;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.adoptContainerBlue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adoptBlue h3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+.adoptBlue h4{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    font-weight: 500;
+    color: #15d5f5;
+}
+
+.blueDescription{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.adoptBlue button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color:#15d5f5;
+}
