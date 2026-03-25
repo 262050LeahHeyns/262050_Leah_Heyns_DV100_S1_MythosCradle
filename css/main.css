@@ -493,7 +493,6 @@ h7{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 60px;
-    padding-right: 60px;
     gap: 50px;
 }
 
@@ -507,7 +506,7 @@ h7{
 
 .aboutContact h4{
     font-family: 'Poppins';
-    font-size: 20pt;
+    font-size: 22pt;
     font-weight: 700;
     color: #002d68;
     padding-bottom: 20px;
@@ -517,4 +516,48 @@ h7{
     font-family: 'Poppins';
     font-size: 11pt;
     color: grey;
+}
+
+.socialMedia h3{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    font-weight: 500;
+    color: #15d5f5;
+    padding-bottom: 12px;
+}
+
+.socialMedia h4{
+    font-family: 'Poppins';
+    font-size: 22pt;
+    font-weight: 700;
+    color: #002d68;
+    padding-bottom: 16px;
+}
+
+.mediaIcons img{
+    border: none;
+    border-radius: 5px;
+}
+
+.location h3{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    font-weight: 500;
+    color: #15d5f5;
+    padding-top: 80px;
+    padding-bottom: 12px;
+}
+
+.location h4{
+    font-family: 'Poppins';
+    font-size: 22pt;
+    font-weight: 700;
+    color: #002d68;
+    padding-bottom: 16px;
+}
+
+iframe {
+    border: none;
+    border-radius: 30px;
+    gap: 10px;
 }
