@@ -470,3 +470,51 @@ h7{
     border: none;
     background-color:#15d5f5;
 }
+
+.contactHead{
+    background-image: url(../assets/img/contactHeader.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 155px;
+    padding-bottom: 55px;
+}
+
+.contactHead h6{
+    font-family: 'Titlefont';
+    font-size: 65pt;
+    color: white;
+}
+
+.aboutContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 50px;
+}
+
+.aboutContact h3{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    font-weight: 500;
+    color: #15d5f5;
+    padding-bottom: 15px;
+}
+
+.aboutContact h4{
+    font-family: 'Poppins';
+    font-size: 20pt;
+    font-weight: 700;
+    color: #002d68;
+    padding-bottom: 20px;
+}
+
+.aboutContact p{
+    font-family: 'Poppins';
+    font-size: 11pt;
+    color: grey;
+}
