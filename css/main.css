@@ -664,6 +664,140 @@ iframe {
 }
 
 
+.footerHeadings{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+.company{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.company h3{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    color: black;
+    font-weight: 600;
+}
+
+.mediaFooter{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+.mediaFooter h4{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    color: black;
+    font-weight: 600;
+    padding-right: 110px;
+    padding-bottom: 5px;
+}
+
+.footerLinks{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+.slogan p{
+    font-family: 'Poppins';
+    font-size: 10.5pt;
+    color: grey;
+    padding-top: 15px;
+    padding-right: 115px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    padding-left: 138px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-size: 11pt;
+    color: grey;
+}
+
+.links p{
+    padding-bottom: 15px;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.footerIcons img{
+    border: none;
+    border-radius: 8px;
+}
+
+.horizontalLine {
+    width: 100%;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 40px; 
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rights{
+    padding-left: 70px;
+}
+
+.rights p{
+    font-family: 'Poppins';
+    font-size: 9.5pt;
+    color: grey;
+}
+
+.policies{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 70px;
+}
+
+.policies p{
+    font-family: 'Poppins';
+    font-size: 9.5pt;
+    color: grey;
+    font-weight: 600;
+}
+
 
 
 
