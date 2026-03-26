@@ -116,7 +116,12 @@ h7{
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
 
+.slider2Col button:hover{
+    background-color: white;
+    color: #15d5f5;
 }
 
 .hero {
@@ -228,6 +233,12 @@ h7{
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.cta button:hover{
+    background-color: white;
+    color: #15d5f5;
 }
 
 .adoptHead{
@@ -368,6 +379,11 @@ h7{
     border-radius: 6px;
     border: none;
     background-color:#15d5f5;
+    cursor: pointer;
+}
+
+.adoptWhite button:hover{
+    background-color:#002d68;
 }
 
 
@@ -469,6 +485,12 @@ h7{
     border-radius: 6px;
     border: none;
     background-color:#15d5f5;
+    cursor: pointer;
+}
+
+.adoptBlue button:hover{
+    background-color: white;
+    color: #15d5f5;
 }
 
 .contactHead{
@@ -477,7 +499,7 @@ h7{
     display: flex;
     justify-content: center;
     padding-top: 155px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 
 .contactHead h6{
@@ -498,7 +520,7 @@ h7{
 
 .aboutContact h3{
     font-family: 'Poppins';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500;
     color: #15d5f5;
     padding-bottom: 15px;
@@ -520,10 +542,9 @@ h7{
 
 .socialMedia h3{
     font-family: 'Poppins';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500;
     color: #15d5f5;
-    padding-bottom: 12px;
 }
 
 .socialMedia h4{
@@ -531,7 +552,7 @@ h7{
     font-size: 22pt;
     font-weight: 700;
     color: #002d68;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
 }
 
 .mediaIcons img{
@@ -541,11 +562,10 @@ h7{
 
 .location h3{
     font-family: 'Poppins';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500;
     color: #15d5f5;
     padding-top: 80px;
-    padding-bottom: 12px;
 }
 
 .location h4{
@@ -553,7 +573,7 @@ h7{
     font-size: 22pt;
     font-weight: 700;
     color: #002d68;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
 }
 
 iframe {
@@ -561,3 +581,90 @@ iframe {
     border-radius: 30px;
     gap: 10px;
 }
+
+
+.contactSection{
+    padding: 60px 40px;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.contactInfo, .contactForm{
+    width: 50%;
+}
+
+.contactForm form{
+    padding: 20px;
+    gap: 10px;
+    background-image: url(../assets/img/formBackground.png);
+    border-radius: 20px;
+}
+
+.formElement{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.contactForm input,
+.contactForm textarea{
+    width: 95%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 10pt;
+}
+
+.contactForm label{
+    font-family: 'Poppins';
+    font-size: 12pt;
+    color: white;
+}
+
+.contactForm h3{
+    font-family: 'Poppins';
+    font-size: 22pt;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.contactForm button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    background-color: #15d5f5;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 11pt;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contactForm button:hover{
+    background-color: white;
+    color: #15d5f5;
+}
+
+
+
+
+
+
