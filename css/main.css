@@ -52,9 +52,89 @@ nav ul{
 
 .searchBar{
     display: flex;
-    justify-content: flex-end;
-    width: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 6px;
 }
+
+.searchLeft{
+    display: flex;
+    align-items: center;
+}
+
+.searchLeft p{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    color: rgb(97, 97, 97);
+}
+
+.searchRight p{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    color: rgb(58, 58, 58);
+}
+
+.searchRight h4{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    padding-right: 10px;
+}
+
+.searchRight{
+    display: flex;
+    align-items: center;
+}
+
+.adoptSearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 6px;
+}
+
+.adoptSearchLeft{
+    display: flex;
+    align-items: center;
+}
+
+.adoptSearchLeft h6{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    color: rgb(97, 97, 97);
+}
+
+.adoptSearchRight h6{
+    font-family: 'Poppins';
+    font-size: 14pt;
+    color: rgb(58, 58, 58);
+}
+
+.adoptSearchRight h5{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    padding-right: 10px;
+}
+
+.adoptSearchRight{
+    display: flex;
+    align-items: center;
+}
+
+
 
 .pageTitle h1{
     font-family: 'Titlefont';
@@ -293,6 +373,7 @@ h7{
 
 }
 
+
 .adoptFoot{
     display: flex;
     justify-content: space-between;
@@ -359,7 +440,7 @@ h7{
     padding-left: 25px;
 }
 
-.showShort p, h6{
+.showShort p{
     font-family: 'Poppins';
     font-size: 13pt;
     font-weight: 500;
@@ -370,9 +451,7 @@ h7{
     border-radius: 10px;
 }
 
-.showShort h6{
-    padding-right: 60px;
-}
+
 
 .adoptWhite{
     display: flex;
@@ -454,7 +533,7 @@ h7{
     padding-bottom: 40px;
 }
 
-.adoptWhite button{
+.whiteAddButton button{
     font-family: 'Poppins';
     font-size: 10pt;
     font-weight: 600;
@@ -469,10 +548,29 @@ h7{
     cursor: pointer;
 }
 
-.adoptWhite button:hover{
-    background-color:#002d68;
+.whitePlusButton button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #002d68;
+    letter-spacing: 10px;
+    cursor: pointer;
 }
 
+.whiteAddButton button:hover{
+    background-color: #e9ad1c;
+}
+
+.whitePlusButton button:hover{
+    background-color: #e9ad1c;
+}
 
 .greyText{
     color: grey;
@@ -560,7 +658,7 @@ h7{
     padding-bottom: 40px;
 }
 
-.adoptBlue button{
+.blueAddButton button{
     font-family: 'Poppins';
     font-size: 10pt;
     font-weight: 600;
@@ -575,9 +673,30 @@ h7{
     cursor: pointer;
 }
 
-.adoptBlue button:hover{
+.bluePlusButton button{
+    font-family: 'Poppins';
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e9ad1c;
+    cursor: pointer;
+    letter-spacing: 10px;
+}
+
+.blueAddButton button:hover{
     background-color: white;
     color: #15d5f5;
+}
+
+.bluePlusButton button:hover{
+    background-color: white;
+    color: #e9ad1c;
 }
 
 .contactHead{
@@ -686,13 +805,16 @@ iframe {
     align-items: flex-start;
 }
 
+.aboutContactImg{
+    padding-right: 40px;
+}
+
 .contactInfo, .contactForm{
-    width: 50%;
+    width: 48%;
 }
 
 .contactForm form{
     padding: 20px;
-    gap: 10px;
     background-image: url(../assets/img/formBackground.png);
     border-radius: 20px;
 }
@@ -708,7 +830,7 @@ iframe {
 
 .contactForm input,
 .contactForm textarea{
-    width: 95%;
+    width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
