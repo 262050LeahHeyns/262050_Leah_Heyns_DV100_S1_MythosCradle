@@ -33,6 +33,26 @@ nav{
     padding-bottom: 5px;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 25px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+
+.pageTitle{
+    padding-top: 240px;
+    padding-left: 670px;
+}
+
 .logo {
     padding-right: 50px;
     width: 33%;
@@ -213,25 +233,6 @@ h7{
     background-size: 100%;
 }
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding-top: 25px;
-    padding-right: 90px;
-    padding-left: 90px;
-    padding-bottom: 20px;
-}
-
-.pageTitle{
-    padding-top: 240px;
-    padding-left: 670px;
-}
 
 .blue{
     background-color: #002d68;
