@@ -17,28 +17,28 @@ img{
     border-radius: 20px;
 }
 
-
 nav{
+    display: flex;
+    justify-content: center;
+}
+.navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.635);
-    border-radius: 32px;
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-radius: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .logo {
-    flex: 1;
+    padding-right: 50px;
+    width: 33%;
 }
 
 nav ul{
-    flex: 1;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -47,25 +47,28 @@ nav ul{
     padding: 0;
     font-size: small;
     font-weight: 600;
+    width: 33%;
 }
 
 .searchBar{
-    flex: 1;
     display: flex;
     justify-content: flex-end;
+    width: 33%;
 }
 
-h1 {
+.pageTitle h1{
     font-family: 'Titlefont';
-    font-size: 54pt;
+    font-size: 60pt;
     color: #e9ad1c;
     font-weight: 500;
 }
 
-h2{
+.pageTitle h2{
     font-family: 'Metamorphous';
-    font-size: 14pt;
+    font-size: 15pt;
     color: white;
+    padding-left: 10px;
+    font-weight: 500;
 }
 
 .blue h3{
@@ -105,9 +108,10 @@ h7{
     font-size: 12pt;
     color: white;
     margin-top: 16px;
+    padding-bottom: 30px;
 }
 
-.slider2Col button{
+.sliderButton button{
     font-family: 'Poppins';
     font-size: 10pt;
     font-weight: bold;
@@ -119,7 +123,7 @@ h7{
     cursor: pointer;
 }
 
-.slider2Col button:hover{
+.sliderButton button:hover{
     background-color: white;
     color: #15d5f5;
 }
@@ -131,18 +135,22 @@ h7{
 
 .hero{
     display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     height: 100vh;
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-top: 350px;
-
+    padding-top: 25px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 20px;
 }
+
 .pageTitle{
-    width: 33%;
+    padding-top: 240px;
+    padding-left: 670px;
 }
 
 .blue{
@@ -157,8 +165,13 @@ h7{
     gap: 10%;
 }
 
+.sliderCol{
+    width: 50%;
+    padding-top: 60px;
+    padding-right: 50px;
+}
 .slider2Col{
-    width: 50%
+    width: 50%;
 }
 
 .flexContainer{
@@ -216,6 +229,14 @@ h7{
     width: 25%;
 }
 
+.featureCard p{
+    font-family: 'Poppins';
+    font-size: 10.5pt;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .cta{
     display: flex;
     align-items: center;
@@ -244,11 +265,21 @@ h7{
 .adoptHead{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../assets/img/adoptHeader.png);
     background-size: 100%;
-    padding-top: 150px;
-    padding-bottom: 45px;
+    padding-top: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.adoptHead p{
+    font-family: 'Titlefont';
+    font-size: 60pt;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 .adoptSub{
@@ -498,14 +529,19 @@ h7{
     background-size: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 155px;
-    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .contactHead h6{
     font-family: 'Titlefont';
-    font-size: 65pt;
+    font-size: 60pt;
     color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .aboutContact{
