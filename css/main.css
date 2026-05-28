@@ -38,7 +38,7 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -70,90 +70,41 @@ nav ul{
     width: 33%;
 }
 
-.searchBar{
+.navLinks a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navLinks .active{
+    color:#15d5f5;
+    font-weight: 600;
+}
+
+
+.searchItem{
+    background-color: rgb(252, 252, 252);
+    border: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.bar{
+    border-right: solid #dbdbdb 1.5px;
+}
+
+.search{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: rgb(252, 252, 252);
+    height: 55%;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 25%;
-    padding: 10px;
-    background-color: rgb(240, 240, 240);
-    border: none;
-    border-radius: 6px;
 }
-
-.searchLeft{
-    display: flex;
-    align-items: center;
-}
-
-.searchLeft p{
-    font-family: 'Poppins';
-    font-size: 10pt;
-    color: rgb(97, 97, 97);
-}
-
-.searchRight p{
-    font-family: 'Poppins';
-    font-size: 14pt;
-    color: rgb(58, 58, 58);
-}
-
-.searchRight h4{
-    font-family: 'Poppins';
-    font-size: 16pt;
-    font-weight: 500;
-    color: rgb(146, 146, 146);
-    padding-right: 10px;
-}
-
-.searchRight{
-    display: flex;
-    align-items: center;
-}
-
-.adoptSearchBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 25%;
-    padding: 10px;
-    background-color: rgb(240, 240, 240);
-    border: none;
-    border-radius: 6px;
-}
-
-.adoptSearchLeft{
-    display: flex;
-    align-items: center;
-}
-
-.adoptSearchLeft h6{
-    font-family: 'Poppins';
-    font-size: 10pt;
-    color: rgb(97, 97, 97);
-}
-
-.adoptSearchRight h6{
-    font-family: 'Poppins';
-    font-size: 14pt;
-    color: rgb(58, 58, 58);
-}
-
-.adoptSearchRight h5{
-    font-family: 'Poppins';
-    font-size: 16pt;
-    font-weight: 500;
-    color: rgb(146, 146, 146);
-    padding-right: 10px;
-}
-
-.adoptSearchRight{
-    display: flex;
-    align-items: center;
-}
-
 
 
 .pageTitle h1{

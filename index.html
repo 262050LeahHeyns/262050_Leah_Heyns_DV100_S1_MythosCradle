@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -26,22 +27,20 @@
             </div>
 
             <ul class="navLinks">
-                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="pages/about.html">Adopt</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
             </ul>
 
-            <div class="searchBar">
-                <div class="searchLeft">
-                <p><i class="fa-solid fa-magnifying-glass"></i> Search</p>
-                </div>
-                <div class="searchRight">
-                <h4> | </h4>
-                <p><i class="fa-solid fa-basket-shopping"></i></p>
-                </div>
+            <div class="search">
+                <button class="searchItem"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input class="searchItem bar" type="search" placeholder="Search">
+                <button class="searchItem"><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+
 
             </div>
-            </div> 
+        
           </nav>
           
           <div class="pageTitle">
@@ -55,7 +54,27 @@
     <section class="blue">
         <div class="sliderColumn">
             <div class="slider2Col">
-                <img src="assets/img/imageSlider1.png" width="100%">
+                <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/imageSlider1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/ImageSlider2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/ImageSlider3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
             </div>
 
             <div class="sliderCol">
