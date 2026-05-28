@@ -864,6 +864,7 @@ iframe {
     font-weight: 600;
 }
 
+
 .mediaFooter{
     display: flex;
     justify-content: flex-end;
@@ -901,27 +902,29 @@ iframe {
     padding-right: 115px;
 }
 
-.links{
+.links a{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 33%;
     padding-left: 138px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'Poppins';
     font-size: 11pt;
     color: grey;
+    text-decoration: none;
 }
 
-.links p{
-    padding-bottom: 15px;
+.links a:hover{
+    color:#002d68;
 }
+
 
 .footerIcons{
     display: flex;
     justify-content: flex-end;
     width: 33%;
-    gap: 10px;
+    gap: 8px;
     padding-top: 10px;
 }
 
