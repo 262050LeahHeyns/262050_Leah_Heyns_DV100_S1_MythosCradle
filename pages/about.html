@@ -117,8 +117,11 @@
 
                 <div class="buttonContainer">
                 <div class="whitePlusButton">
-                    <button>- 1 +</button>
-                </div>    
+                    <button class="counter-btn" onclick="changeCount(-1)">-</button>
+                    <span class="counter-value" id="count">0</span>
+                    <button class="counter-btn" onclick="changeCount(1)">+</button>
+                </div>   
+
                 <div class="whiteAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -546,7 +549,15 @@
    </footer>
 
 
+<script>
+  function changeCount(amount) {
+    const countEl = document.getElementById('count');
+    let current = parseInt(countEl.textContent);
+    countEl.textContent = current + amount;
+  }
+</script>
 
 <script src="https://kit.fontawesome.com/500fe0dc20.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

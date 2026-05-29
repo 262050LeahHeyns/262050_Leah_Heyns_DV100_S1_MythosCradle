@@ -480,9 +480,11 @@ h7{
 
 .buttonContainer{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     padding-bottom: 40px;
+
 }
 
 .whiteAddButton button{
@@ -500,29 +502,43 @@ h7{
     cursor: pointer;
 }
 
-.whitePlusButton button{
-    font-family: 'Poppins';
-    font-size: 10pt;
-    font-weight: 600;
-    color: white;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 20px;
-    padding-right: 10px;
+.whitePlusButton{
+    background-color: #002d68;
+    width: fixed;
+    padding: 14px 17px;
     border: none;
     border-radius: 6px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.whitePlusButton :hover{
+    background-color: #e9ad1c;
+}
+
+.counter-btn{
     background-color: #002d68;
-    letter-spacing: 10px;
-    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.counter-value{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
 }
 
 .whiteAddButton button:hover{
     background-color: #e9ad1c;
 }
 
-.whitePlusButton button:hover{
-    background-color: #e9ad1c;
-}
 
 .greyText{
     color: grey;
