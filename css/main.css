@@ -514,17 +514,14 @@ h7{
     color: white;
 }
 
-.whitePlusButton :hover{
-    background-color: #e9ad1c;
-}
-
-.counter-btn{
+.counter-btnWhite{
     background-color: #002d68;
     border: none;
     color: white;
     font-family: 'Poppins';
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .counter-value{
@@ -647,31 +644,35 @@ h7{
     cursor: pointer;
 }
 
-.bluePlusButton button{
-    font-family: 'Poppins';
-    font-size: 10pt;
-    font-weight: 600;
-    color: white;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 20px;
-    padding-right: 10px;
+.bluePlusButton{
+    background-color: #e9ad1c;
+    width: fixed;
+    padding: 14px 17px;
     border: none;
     border-radius: 6px;
-    background-color: #e9ad1c;
-    cursor: pointer;
-    letter-spacing: 10px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
 }
+
+.counter-btnBlue{
+    background-color: #e9ad1c;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}   
+
+
 
 .blueAddButton button:hover{
     background-color: white;
     color: #15d5f5;
 }
 
-.bluePlusButton button:hover{
-    background-color: white;
-    color: #e9ad1c;
-}
 
 .contactHead{
     background-image: url(../assets/img/contactHeader.png);

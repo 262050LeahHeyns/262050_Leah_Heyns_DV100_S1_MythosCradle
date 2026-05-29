@@ -117,9 +117,9 @@
 
                 <div class="buttonContainer">
                 <div class="whitePlusButton">
-                    <button class="counter-btn" onclick="changeCount(-1)">-</button>
-                    <span class="counter-value" id="count">0</span>
-                    <button class="counter-btn" onclick="changeCount(1)">+</button>
+                    <button class="counter-btnWhite" onclick="changeCount('count1', -1)">-</button>
+                    <span class="counter-value" id="count1">0</span>
+                    <button class="counter-btnWhite" onclick="changeCount('count1', 1)">+</button>
                 </div>   
 
                 <div class="whiteAddButton">
@@ -189,8 +189,11 @@
 
                 <div class="buttonContainer">
                 <div class="bluePlusButton">
-                    <button>- 1 +</button>
+                    <button class="counter-btnBlue" onclick="changeCount('count4', -1)">-</button>
+                    <span class="counter-value" id="count4">0</span>
+                    <button class="counter-btnBlue" onclick="changeCount('count4', 1)">+</button>
                 </div>    
+
                 <div class="blueAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -258,8 +261,11 @@
 
                 <div class="buttonContainer">
                 <div class="whitePlusButton">
-                    <button>- 1 +</button>
-                </div>    
+                    <button class="counter-btnWhite" onclick="changeCount('count2', -1)">-</button>
+                    <span class="counter-value" id="count2">0</span>
+                    <button class="counter-btnWhite" onclick="changeCount('count2', 1)">+</button>
+                </div>   
+
                 <div class="whiteAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -327,8 +333,11 @@
 
                 <div class="buttonContainer">
                 <div class="bluePlusButton">
-                    <button>- 1 +</button>
+                    <button class="counter-btnBlue" onclick="changeCount('count5', -1)">-</button>
+                    <span class="counter-value" id="count5">0</span>
+                    <button class="counter-btnBlue" onclick="changeCount('count5', 1)">+</button>
                 </div>    
+
                 <div class="blueAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -396,8 +405,11 @@
 
                 <div class="buttonContainer">
                 <div class="whitePlusButton">
-                    <button>- 1 +</button>
+                    <button class="counter-btnWhite" onclick="changeCount('count3', -1)">-</button>
+                    <span class="counter-value" id="count3">0</span>
+                    <button class="counter-btnWhite" onclick="changeCount('count3', 1)">+</button>
                 </div>    
+
                 <div class="whiteAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -465,8 +477,11 @@
 
                 <div class="buttonContainer">
                 <div class="bluePlusButton">
-                    <button>- 1 +</button>
-                </div>    
+                        <button class="counter-btnBlue" onclick="changeCount('count6', -1)">-</button>
+                    <span class="counter-value" id="count6">0</span>
+                    <button class="counter-btnBlue" onclick="changeCount('count6', 1)">+</button>
+                </div>   
+
                 <div class="blueAddButton">
                     <button>Add to Cradle</button>
                 </div>
@@ -549,15 +564,8 @@
    </footer>
 
 
-<script>
-  function changeCount(amount) {
-    const countEl = document.getElementById('count');
-    let current = parseInt(countEl.textContent);
-    countEl.textContent = current + amount;
-  }
-</script>
 
 <script src="https://kit.fontawesome.com/500fe0dc20.js" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>

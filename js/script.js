@@ -1,7 +1,8 @@
-function changeCount(amount){
-    let count = parseInt(document.getElementById("count").innerText);
-    count += amount;
-
-    if (count < 0) count = 0;
-    document.getElementById("count").innerText = count;
+// about.html inputCounter
+function changeCount(id, amount){
+    const countEl = document.getElementById(id);
+    let current = parseInt(countEl.textContent);
+    current += amount;
+    if (current < 0) current = 0;
+    countEl.textContent = current;
 }
